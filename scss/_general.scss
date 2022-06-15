@@ -16,9 +16,10 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
-  font-family: "Public Sans", "DM Serif Display", sans-serif;
-  font-size: 15px;
-  line-height: 28px;
+  background-color: $main-color;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 22px;
+  line-height: 33px;
 }
 
 main {
