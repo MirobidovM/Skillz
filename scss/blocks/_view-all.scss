@@ -1,0 +1,90 @@
+.view-all {
+  background-color: #f5f5f5;
+  &__container {
+    padding-top: 145px;
+    padding-bottom: 145px;
+  }
+
+  &__title {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 53px;
+    text-align: center;
+    color: $index-color;
+    margin-bottom: 17px;
+  }
+
+  &__line {
+    width: 150px;
+    height: 2px;
+    border: none;
+    background-color: $secondary-color;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__text {
+    width: 644px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    color: #4e4e65;
+    margin-bottom: 46px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__link-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    width: 391px;
+    background-color: #ffffff;
+    padding: 22px 35px 24px 24px;
+  }
+
+  &__item-title {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: $index-color;
+    margin-bottom: 11px;
+  }
+
+  &__item-text {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #4e4e65;
+    margin-bottom: 28px;
+  }
+
+  &__item-link {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: $secondary-color;
+  }
+}

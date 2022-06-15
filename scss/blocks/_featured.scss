@@ -1,0 +1,116 @@
+.featured {
+  &__container {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+
+  &__title {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 53px;
+    text-align: center;
+    color: #f6f6f8;
+    margin-bottom: 17px;
+  }
+
+  &__line {
+    width: 150px;
+    height: 2px;
+    border: none;
+    background-color: $secondary-color;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__text {
+    width: 644px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    color: #f6f6f8;
+    margin-bottom: 46px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__link-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    width: 393px;
+    padding: 220px 56px 30px 24px;
+    background-color: #ffffff;
+  }
+
+  &__item:first-child {
+    background-image: url(../img/featured-1.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  &__item:nth-child(2) {
+    background-image: url(../img/featured-2.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+  &__item:nth-child(3) {
+    background-image: url(../img/featured-3.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  &__item-title {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: $index-color;
+    margin-bottom: 8px;
+  }
+
+  &__item-name {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #4e4e65;
+    margin-bottom: 15px;
+  }
+
+  &__item-prize {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    color: $index-color;
+    margin-bottom: 16px;
+  }
+
+  &__item-link {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: $secondary-color;
+  }
+}

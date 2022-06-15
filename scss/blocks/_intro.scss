@@ -1,0 +1,72 @@
+.intro {
+  background-image: url(../../img/intro.svg);
+  background-repeat: no-repeat;
+  background-position: top 104px right calc(50% - 375px);
+
+  &__container {
+    display: flex;
+    justify-content: left;
+    padding-top: 144px;
+    padding-bottom: 311px;
+  }
+
+  &__content {
+    width: 614px;
+  }
+
+  &__description {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #f6f6f8;
+    margin-bottom: 68px;
+    position: relative;
+  }
+
+  &__description::before {
+    content: '';
+    width: 150px;
+    height: 2px;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 28px;
+    background-color: $secondary-color;
+  }
+
+  &__title {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 60px;
+    color: #f6f6f8;
+    margin-bottom: 22px;
+    width: 509px;
+  }
+
+  &__text {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: #f6f6f8;
+    width: 548px;
+    margin-bottom: 22px;
+  }
+
+  &__person-name {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #b2b2bf;
+    margin-bottom: 48px;
+  }
+}

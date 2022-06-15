@@ -24,6 +24,7 @@ body {
 
 main {
   flex-grow: 1;
+  background-color: $main-color;
 }
 
 img {
@@ -42,6 +43,30 @@ ol {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+.global-link {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: $index-color;
+  padding: 16px 24px;
+  background: #57d9a6;
+  border-radius: 4px;
+  transition: 0.3s ease;
+}
+
+.global-link:hover {
+  opacity: 0.7;
+}
+
+.global-link:active {
+  opacity: 0.4;
 }
 
 // SCROLLBAR STYLE
