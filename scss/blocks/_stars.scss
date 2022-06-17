@@ -1,0 +1,69 @@
+.stars {
+  background-color: $secondary-color;
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 185px;
+  }
+
+  &__link {
+    margin-bottom: 43px;
+    transition: 0.3s ease;
+  }
+
+  &__link:hover {
+    opacity: 0.7;
+  }
+
+  &__link:active {
+    opacity: 0.4;
+  }
+
+  &__text {
+    font-family: 'Source Sans Pro';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+    color: $index-color;
+    width: 1006px;
+    margin-bottom: 37px;
+  }
+
+  &__person-name {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #4e4e65;
+    position: relative;
+  }
+
+  &__person-name::before {
+    content: '';
+    width: 18px;
+    height: 18px;
+    background: #222222;
+    border-radius: 9px;
+    position: absolute;
+    z-index: 1;
+    top: 68px;
+    left: 71px;
+  }
+
+  &__person-name::after {
+    content: '';
+    width: 18px;
+    height: 18px;
+    background: rgba(34, 34, 34, 0.4);
+    border-radius: 9px;
+    position: absolute;
+    z-index: 1;
+    top: 68px;
+    left: 93px;
+  }
+}

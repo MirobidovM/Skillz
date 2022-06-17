@@ -1,0 +1,44 @@
+.teaching {
+  background-image: url(../img/teaching.svg);
+  background-repeat: no-repeat;
+  background-position: top 100px left calc(50% - 340px);
+
+  &__container {
+    display: flex;
+    justify-content: right;
+    padding-top: 263px;
+    padding-bottom: 266px;
+  }
+
+  &__content {
+    width: 614px;
+  }
+
+  &__title {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 53px;
+    color: #f6f6f8;
+    margin-bottom: 17px;
+  }
+
+  &__line {
+    width: 150px;
+    height: 2px;
+    border: none;
+    background-color: $secondary-color;
+    margin-bottom: 50px;
+  }
+
+  &__text {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: #f6f6f8;
+    margin-bottom: 46px;
+  }
+}

@@ -1,0 +1,26 @@
+.submit {
+  background-color: $index-color;
+  height: 174px;
+  position: relative;
+
+  &__container {
+    background-color: $secondary-color;
+    padding-top: 78px;
+    padding-bottom: 95px;
+    position: absolute;
+    z-index: 1;
+    top: -174px;
+    left: calc(50% - 638px);
+    width: 1276px;
+  }
+  &__title {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 53px;
+    text-align: center;
+    color: $index-color;
+    margin-bottom: 57px;
+  }
+}

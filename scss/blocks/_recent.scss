@@ -1,7 +1,9 @@
-.featured {
+.recent {
+  background-color: #f5f5f5;
+
   &__container {
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 142px;
+    padding-bottom: 278px;
   }
 
   &__title {
@@ -11,7 +13,7 @@
     font-size: 44px;
     line-height: 53px;
     text-align: center;
-    color: #f6f6f8;
+    color: $index-color;
     margin-bottom: 17px;
   }
 
@@ -33,7 +35,7 @@
     font-size: 22px;
     line-height: 33px;
     text-align: center;
-    color: #f6f6f8;
+    color: #4e4e65;
     margin-bottom: 46px;
     margin-left: auto;
     margin-right: auto;
@@ -42,7 +44,7 @@
   &__link-wrapper {
     display: flex;
     justify-content: center;
-    margin-bottom: 80px;
+    margin-bottom: 81px;
   }
 
   &__list {
@@ -52,28 +54,39 @@
 
   &__item {
     width: 393px;
-    padding: 220px 56px 30px 24px;
+    padding: 219px 49px 72px 25px;
     background-color: #ffffff;
   }
 
   &__item:first-child {
-    background-image: url(../img/featured-1.svg);
+    background-image: url(../img/recent-1-2.svg);
     background-repeat: no-repeat;
     background-position: top;
   }
 
   &__item:nth-child(2) {
-    background-image: url(../img/featured-2.svg);
+    background-image: url(../img/recent-1-2.svg);
     background-repeat: no-repeat;
     background-position: top;
   }
   &__item:nth-child(3) {
-    background-image: url(../img/featured-3.svg);
+    background-image: url(../img/recent-3.svg);
     background-repeat: no-repeat;
     background-position: top;
   }
 
-  &__item-title {
+  &__item-data {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #4e4e65;
+    margin-bottom: 22px;
+  }
+
+  &__item-text {
+    width: 319px;
     font-family: 'Source Sans Pro';
     font-style: normal;
     font-weight: 400;
@@ -83,43 +96,12 @@
     margin-bottom: 8px;
   }
 
-  &__item-name {
+  &__item-person-name {
     font-family: 'Source Sans Pro';
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
     line-height: 27px;
     color: #4e4e65;
-    margin-bottom: 15px;
-  }
-
-  &__item-prize {
-    font-family: 'Source Sans Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 27px;
-    color: $index-color;
-    margin-bottom: 16px;
-  }
-
-  &__item-link {
-    font-family: 'Source Sans Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 21px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    color: $secondary-color;
-    transition: 0.3s ease;
-  }
-
-  &__item-link:hover {
-    opacity: 0.7;
-  }
-
-  &__item-link:active {
-    opacity: 0.4;
   }
 }

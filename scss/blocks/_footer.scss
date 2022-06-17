@@ -1,0 +1,148 @@
+.footer {
+  background-color: $index-color;
+  &__container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 144px;
+    padding-bottom: 144px;
+  }
+
+  &__logo {
+    transition: 0.3s ease;
+    margin-bottom: 80px;
+  }
+
+  &__logo:hover {
+    opacity: 0.7;
+  }
+
+  &__logo:active {
+    opacity: 0.4;
+  }
+
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    width: 283px;
+    margin-right: 48px;
+  }
+
+  &__item-title {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #f6f6f8;
+    margin-bottom: 23px;
+  }
+
+  &__item-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__item-list-item {
+    margin-bottom: 16px;
+  }
+
+  &__item-list-item:last-child {
+    margin-bottom: 0;
+  }
+
+  &__item-link {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #f6f6f8;
+    transition: 0.3s ease;
+    cursor: pointer;
+  }
+
+  &__item-link:hover {
+    opacity: 0.7;
+  }
+
+  &__item-link:active {
+    opacity: 0.4;
+  }
+
+  &__item-socials {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__item-socials-title {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #f6f6f8;
+    margin-bottom: 23px;
+  }
+
+  &__item-socials-list {
+    width: 305px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item-socials-item-link {
+    transition: 0.3s ease;
+  }
+
+  &__item-socials-item-link:hover {
+    opacity: 0.7;
+  }
+
+  &__item-socials-item-link:active {
+    opacity: 0.4;
+  }
+
+  &__bottom {
+    background-color: $main-color;
+  }
+
+  &__bottom-wrapper {
+    display: flex;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  &__bottom-wrapper-text {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #b2b2bf;
+    margin-right: 32px;
+    transition: 0.3s ease;
+  }
+
+  &__bottom-wrapper-text:hover {
+    opacity: 0.7;
+  }
+
+  &__bottom-wrapper-text:active {
+    opacity: 0.4;
+  }
+
+  &__bottom-wrapper-description {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #b2b2bf;
+  }
+}
